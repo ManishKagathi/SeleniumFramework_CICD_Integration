@@ -1,0 +1,7 @@
+com\pom\qa\abstractComponents\AbstractComponent.class
+com\pom\qa\pages\LandingPage.class
+com\pom\qa\pages\MyOrdersPage.class
+com\pom\qa\pages\ConfirmPage.class
+com\pom\qa\pages\ProductCataloguePage.class
+com\pom\qa\pages\CartPage.class
+com\pom\qa\pages\PaymentsPage.class

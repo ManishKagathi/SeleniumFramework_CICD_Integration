@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.pom.qa.testBase.Listeners"/>
+  </listeners>
+  <test thread-count="5" parallel="tests" name="Login Error Validation(failed)">
+    <classes>
+      <class name="com.pom.qa.testcases.LoginErrorValidationTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="launchApplication"/>
+          <include name="loginWithWrongCredentialsTest"/>
+        </methods>
+      </class> <!-- com.pom.qa.testcases.LoginErrorValidationTest -->
+    </classes>
+  </test> <!-- Login Error Validation(failed) -->
+  <test thread-count="5" parallel="tests" name="Submit Order Test(failed)">
+    <classes>
+      <class name="com.pom.qa.testcases.SubmitOrderTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="launchApplication"/>
+          <include name="StandAloneTest" invocation-numbers="0"/>
+          <include name="validateOrderHistory"/>
+        </methods>
+      </class> <!-- com.pom.qa.testcases.SubmitOrderTest -->
+    </classes>
+  </test> <!-- Submit Order Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
