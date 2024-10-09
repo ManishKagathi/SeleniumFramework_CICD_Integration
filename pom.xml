@@ -97,7 +97,7 @@
       </profile>
       
        <profile>
-         <id>SubmitOrderTest</id>
+         <id>SubmitOrder</id>
          <build>
             <pluginManagement>
                <plugins>
@@ -106,7 +106,7 @@
                      <version>3.0.0-M4</version>
                      <configuration>
                         <suiteXmlFiles>
-                           <suiteXmlFile>testSuites/SubmitOrderTest.xml</suiteXmlFile>
+                           <suiteXmlFile>testSuites/SubmitOrder.xml</suiteXmlFile>
                         </suiteXmlFiles>
                      </configuration>
                   </plugin>
