@@ -95,6 +95,27 @@
             </pluginManagement>
          </build>
       </profile>
+      
+       <profile>
+         <id>SubmitOrderTest</id>
+         <build>
+            <pluginManagement>
+               <plugins>
+                  <plugin>
+                     <artifactId>maven-surefire-plugin</artifactId>
+                     <version>3.0.0-M4</version>
+                     <configuration>
+                        <suiteXmlFiles>
+                           <suiteXmlFile>testSuites/SubmitOrderTest.xml</suiteXmlFile>
+                        </suiteXmlFiles>
+                     </configuration>
+                  </plugin>
+               </plugins>
+            </pluginManagement>
+         </build>
+      </profile>
+      
+      
    </profiles>
    
    <build>
